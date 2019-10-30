@@ -1,0 +1,46 @@
+You received a Lv. **5** Charmander and a Charmeleon[+] evolution badge!
+
+Welcome to Komala! My name is Oak. In this world, people `.trade` with and `.battle` one another using Pokémon! There are a few differences, though!
+
+1) All Pokémon you collect have **one** single type, like <> or <>. Some types are strong against others, like water on fire, which can be seen with `.types`
+
+2) A Pokémon `.party` is made up of a team placed strategically on one of many `.decks`! Different decks offer boosts to certain types of Pokémon, so be sure to try them all!
+
+3) Instead of fighting one at a time, a trainer's party will attack together during a full turn! The idea is to use Pokémon with special abilities to **buff** the powers of the Pokémon that attack after it. Synergy!
+
+So, [NAME], are you ready to start your adventure? Type `.map` (`.x` for short) to open the overworld!
+
+__
+
+Under **Paths**, you can see different routes you can take, like `n` for north and `s` for south.
+
+Under **Actions**, you can various things to interact with, like puzzles or people! There are a lot of secret actions and paths too, so they won't always be listed. When you're ready, come see me in my `lab`!
+
+_Type the name of a path or action to execute it. In this case, type `lab`_
+
+__
+
+"Ah, [NAME]! There you are. My grandson should be arriving soon... and here he is now! Let's learn to battle! It'll be pretty simple since you both only have one Pokémon each."
+
+
+
+
+__
+
+
+I haven't said my goodbyes yet!
+
+
+> Your **Charmander** has already been equipped to your strongest slot of your deck, so type `.party` to see it!
+> Well done. There are many other `.decks` to choose from by typing `.deck <name>`,
+
+
+
+Oh! <NAME>, you're leaving on a Pokémon adventure? Come see me after you talk to Oak! I have a present for you.
+
+
+
+Later:
+
+
+targeting

@@ -1,0 +1,90 @@
+ho oh and lapras only allow you on after catching x amount of pokemon
+beat at least x trainers(edited)
+have to have a dragon equipped
+
+
+
+
+Whoa, careful! The swamp is toxic
+
+some kind of cycle from spores
+
+The toxins? We've built up a natural immunity to it!
+
+
+
+There's trouble in the town up ahead
+
+'so what's your favorite season?'
+"It's so nice! Here, have this" <deerling>
+
+
+"im looking for a _____"
+
+`pond` pond in viridian city can be crossed but only with a water pokemon in your party
+
+
+get 1 ditto right away? copy before
+
+
+__
+
+castform looks at you expectedly
+
+
+talk with fire pokemon in first slot
+talk with water pokemon in first slot
+talk with earth pokemon in first slot
+
+-or-
+
+sunny day / sandstorm
+
+silph scope for monochrome mines
+
+hoothoot must be defeated at night
+
+
+
+night filter on rpg images?
+
+
+mr. mime is dancing
+`.x dance`
+
+mr. mime is sitting
+
+porygon says
+
+```(lambda _, __, ___, ____, _____, ______, _______, ________:
+            __) - _)) - (_______ << ((((___ << __) - _) << __) + _)) + (_______
+            << (((((_ << ___) + _)) << __))) - ((((((_ << ___) + _)) << __) +
+            _) << ((((___ << __) + _) << _))) + (((_______ << __) - _) <<
+            (((((_ << ___) + _)) << _))) + (((___ << ___) + _) << ((_____ <<
+            _))) + (_____ << ______) + (_ << ___)
+```
+
+
+Fire / Ice / Water / Fire / Water based on user id
+
+porygon says
+
+```0110101000110101```
+
+pet me
+
+.x code / .x run on computer
+
+
+unown puzzle:
+
+FRIDAY
+
+ROCKET
+
+print("".join([chr(c) for c in [112, 101, 116, 32, 109, 101]]))
+
+
+print("".join([chr([112, 101, 116, 32, 109, 101][i]) for i in [2, 4, 5, 0, 3, 1]]))
+
+

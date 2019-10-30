@@ -1,0 +1,567 @@
+welcome to new christmas village (song) see gym.py
+
+EVERYBODY VOTES
+
+
+actions:
+pond
+blah
+
+`1 pond`
+
+actions:
+guy
+pond
+
+`1 castform`
+
+
+pvp:
+just like paper mario? take rank of person you beat, they bump down
+
+show opponents keyblade
+
+
+
+lycanrock = earth / fire / dark
+
+decks: -2 PP per slot or causes you to use 2 pp more
+
+night cards?
+tandems?
+gain +2 pp next turn
+
+
+form a gym with other players
+type specialization / leader
+
+:moyai:
+
+
+abyssal - Today at 3:44 PM
+why tea
+why not :meguface~1:
+bring that thristy :regional_indicator_b:oi some fresh :meguface~1:
+i know
+you could have an injured pokemon blocking the way and you can use a potion on it to heal it so it will move
+a machamp that wants to have an arm wrestling match
+Fallenjan - Today at 4:44 PM
+^backpacking onto the machamp thing, you have to catch a certain Pokemon in order to pass the puzzle (since a human wouldn't be able to beat a machamp).
+Not always obvious what the Pokemon is but it is relatively easy to catch to pass the puzzle.
+there's been a few suggestions saying specific Pokemon, I was just generalizing the idea.
+jacob - Today at 5:55 PM
+@abyssal  @Fallenjan yeah i definitely dig that idea (generally speaking)
+
+
+
+1850 = 5 * d + (1/5) * d
+3750 non donor 7500 donor
+
+.calc (3750 / 5) / 4000
+
+
+5 per day, 5 per pull, 3750 sum dailies out of 5000, 400 per pull
+5 * d + 5 * (3750 / 5) * d / 4000 = 1000
+5 * d + 5 * (7000 / 5) * d / 4000 = 1000
+
+3750 = 168.4 days
+7000 = 148.15 days
+
+
+5 * d + 5 * (3750 / 5) * d / 3000 = 1000
+5 * d + 5 * (7000 / 5) * d / 3000 = 1000
+
+3750 = 160 days
+7000 = 136.36 days
+
+
+
+
+CATCHING MECHANICS
+
+.ex / .explore
+.fish
+
++5 pokeballs per daily (3 if not on game server), added to collection
+Hard Limit of *sucessfully* catching 5 (?) per day, regardless of rarity / balls thrown
+.lp counts as 1 caught
+same jacobs as khux but all pulls are baseline 4000 for 5 pokemon
+5 to guilt, not 7, can transfer traits
+
+2500 for 3
+
+EVOLVE MECHANICS
+
+- Must be level 32
+- Must have z-move unlocked
+
+
+- Must be day time
+- ??? (gyarados, trading, etc)
+
+gyarados requires golden magikarp in
+
+
+
+ENEMY MECHANICS
+
+____ used double team (another copy appears)
+
+levitate - unaffected by earth
+life steal
+status inflict
+leech seed at start
+burmy cloak absorbs one hit
+plusle / minun share damage?
+brock's onix binds?
+vileplume - poison + leech life
+castform - sunny day / rain dance
+
+
+Special Attacks/Effects of Enemies:
+
+
+???: hyper beam type / hydro cannon
+snorlax: recovers hp when dipped below half, sleep
+burmy: cloak absorbs/negates one full hit of damage (even if not targeted?)
+mimikyu: burmy effect?
+[x] chansey/blissey: heals enemy party
+[x] chatot: causes confusion
+porygon/ditto: transforms to random party member (at start?)
+[x]electabuzz/scyther/scizor: crits
+[x] gloom/vileplume: poison / sleep / giga drain
+[x] gyarados: dragon rage (decrease hp by half each time)
+[x] bulbasaur/ivysaur: leech seed
+[x] venusaur: solarbeam / giga drain
+[x] komala: always asleep, restores hp each turn
+[x] magikarp: splash
+magnemite/magneton: paralysis
+???: chance to cause burn
+lotad/lombre: absorbs water/nature?
+[x] meowth/alolan meowth: payday, steals jacobs
+[x] mime jr. / mr. mime: sets up reflect which reverses damage/effects of 1 attack
+ditto / kecleon: copies your (last?) attack dealt to them (store it)
+metang/metagross/beldam: raise defense, levitate
+[x] phantump: double team
+nidoking/queen: earthquake (pierces defense)
+snorunt/glalie/spheal/froslass: chance to cause freeze
+onix/steelix: bind, bide
+[x] gastly/haunter/gengar: double team, 1 hit ko while sleeping (dream eater)
+salandit/salazzle: poisons you on contact
+[x] absol: destiny bond (kill it / it kills you)
+plusle+minun: share damage
+[x] castform: sunny day etc, buffs all F/W/I
+[x] ratatta: tail whip
+[x] sandshrew: sand attack accuracy
+abra - teleport
+[x] voltorb/elecrode: self-destruct
+bagon/shelgon could be rough skin maybe, where the attacker takes 1/5 of the damage dealt or whatever ratio seems more fair
+in competetive battle, alolan vulpix/ninetales are used with snow warning and its signature move, aurora veil, which halves all damage to your team for like 5-8 turns i believe
+
+
+still need:
+recoil
+offensive buffers (innate, on turn)
+defensive buffers (innate, on turn)
+other status inflict
+evasiveness
+slight hp over time replenish (bell)
+
+
+Dk
+Dg
+Ea
+Fy
+Fr
+Ic
+Nt
+Nr
+Ps
+Wa
+
+
+__
+
+ANTI CHEATING
+
+Assign point values to pkmn + traits (factor in buffs)
+Log all trades w/ account ages
+Disallow game registration without permission for newly creaeted discord users? or just ranking/trading
+Record # of game quests completed, # of pkmn traded, account staleness
+
+
+Damage scales with each additional kill; peaks with 3 kills or more. Resets outside of battle.
+
+
+STARTING AREAS
+
+cave to ice town, snowy pathway
+
+Mt. Moon
+Cerulean
+Lt. Surge
+Celadon
+
+Replace Route 1 etc with names?
+
+Butterfree Trail
+Machop Mountain
+Haunted Forest (ghost pokemon)
+____ Falls
+
+
+Lapras in water of palette town? -> Dive to
+
+Palette (1)
+Route 1 (2)
+Viridian (4)
+West to Path of The Beginning? (4)
+or Lapras Lake? (14)
+
+North to Route 2 (4)
+Connects to Swamp (12, Northeast Corner leads to temple) Poison type gym leader?
+Swamp -> City (which gym?)
+City (9 Zones + School)
+has east/west exit
+east connect to desert?
+west connect oto farmland?
+
+Desert (3, connects from west, goes north), north to safari zone?
+
+Pewter City (4 zones)
+Route 3, North to Cave which leads to Sepia Town? or icestone tunnel -> christmas town -> ice gym
+ice gym -> mines -> sepia town
+
+use ice caves twice, once with just the entry/exit (flipped and ladder fixed) -> christmas town -> whatever
+
+
+christmas town -> snowy pathway [two cave exits out]
+1: sepia
+2: ice caves -> purple area?
+
+put gym in that one town
+
+OR
+
+christmas town -> snowy pathway -> gym town
+                      |
+                      -> small ice cave -> purple area -> south to... sepia town bottom right
+
+
+sepia town w/ gym (4 zones) -> sepia mines
+
+sepia mines -> wildwood village west to -> Silvarea Forest -> west to city
+
+
+magiscarf (east / west) fly to skypeia
+fairy in skypeia
+
+fire in montebaro leads to fire cave
+
+
+Green Leaf Village (1 Zone, North/South, Dirt Roads)
+Montebar (has north and eastern exit)
+
+Coastwalk -> Montebar?
+monterbar can go north to desert
+
+Little Farm (1 zone, has west exit, grassy)
+City (9 Zones)
+School (4 Zones)
+Lakeshore Plantation
+Battle Route (4 zones)
+Beach
+Swamp Temple
+Sepia / Waxstone Mines
+The only place where rock trainers and ghost trainers meet
+Fungi Forest (6 zones)
+Safari Zone (1 zone)
+Christmas Town (4 zones)
+Ice Gym (3 zones)
+Desert (3 zones)
+Isla Barato (4 zones, connected via bridge to beach)
+Route 1 of new beginnings (5ish areas)
+
+DP Palette Town (1)
+DP Viridian City (6 zones)
+
+choose your first battle:
+Giovanni's First Team
+Giovanni's Second Team
+
+Bug Catcher Mark
+Cool Trainer Cindy
+
+Sky City - Landing / Awning
+
+Magnemite Factory
+
+
+
+city
+^
+swamp
+^         wayy north east to snow
+north    /              |
+|       |               south
+pallette                v
+     city <-- forest <---sepia
+
+
+TRAINERS
+rocket grunt (poison/dark/normal)
+rocket executive (ground/persian)
+team skull grunt (poison)
+
+
+early:
+
+araquanic / lower evo
+alolan rattaa / meowth
+
+fletchling
+
+burmay
+
+plusle minun
+
+bidoof
+
+4 x deerling
+
+both meow
+
+
+pewter gym:
+
+brock's onix
+onix
+steelix
+rockruff
+sandshrew
+lycanroc
+larvitar
+Amaura
+
+Brock (series 1 or something)
+
+
+Lt. Surge - Raichu / Plusle / Minun
+
+
+_
+
+
+type, chance of encounter, lv low, lv high
+'pikachu', 35, 5, 5
+
+OR
+
+automatically do encounters based on rarity?
+or use constants rare, low, med, high
+
+
+gyarados has been added to the safari
+
+rival battle:
+starter + 2 others
+
+
+bug catcher:
+water bug pokemon + 2 others
+
+
+
+
+https://bulbapedia.bulbagarden.net/wiki/Location_preview
+
+todo:
+insert 5 pokemon (charmander)
+format inventory
+format loadout
+cogs
+
+.fish
+.x fish
+
+
+GAMEPLAY
+
+Starter + 1 evolve token, or 2 evolve tokens (need magma stone to upgrade?)
+After first battle, get another starter as prize to fuse
+.fly celadon
+
+Events for castform, eeevee etc
+
+
+daily quests (defeat x trainer in y blah, fixed stats, sometimes condition (gender, stage, etc))
+
+
+TRAINERS
+
+see generator.py
+
+"Team Battles" for separate mobs (combine two trainers)
+
+leaderboard for battles won?
+
+Start with 50 trainers excluding gyms? Can fight each one once per day, levels increase rather quickly, stats change (separate class per trainer?)
+Custom actions for some, otherwise default to built-in patterns (chansey heals etc). some variation between levels
+
+first battle = drop unique prize, later battles, just EXP
+
+Beating Brock gets first Brock's Onix
+_Brock's Onix has been added to the safari_
+
+4
+
+you can catch 2 more pokemon today!
+
+
+NICKNAMES
+
+battles will take the form of http://www.pokestadium.com/sprites/xy/bulbasaur.gif sprites with a trainer
+
+
+Pokemon Coliseum
+
+12 rounds?
+Brock's Round etc
+
+
+Gym Battle Conditions:
+Only Male Pokemon
+Only Stage 1
+Only Tier 3 or lower
+
+
+Brock / Battle I
+(have to beat at least all other gym leaders before challenging Brock Battle II)
+
+
+
+upgrades for attributes?
+fire level is now 4 for recycling power etc
+
+
+
+.safari cerulean (increased chance of water, guaranteed water every 3 pulls, but still has rest)
+
+no banners or mercies, but instead different attributes
+i.e. one guaranteed dragon every 3 pulls
+
+evolve medals have no stats in inventory
+
+abilities that only work when equipped on correct slot
+i.e. mr mime
+
+
+explore routes n/e/s/w
+
+
+is .explore limited? or pokeballs / available battles?
+
+
+unknown boosts stats of pokemon starting with ""
+
+
+
+same ability/multiplier for pokemon + evolutions?
+
+Traits:
+PP+
+HP+
+ATK+
+DEF+
+Buff+
+EXP+
+Resist+
+Crit+
+Element+ (raises buff cap by 1 for given element, max 3, does not stack per pokemon)
+Find+ (Drops from raid)
+Totem Damage
+
+
+____
+
+States:
+-Poison
+-Seeded / Leech Seed
+-Burned
+-Paralyzed
+-Flinch
+-Sleep
+
+Conditions:
+
+-x slot
+-more damage to heavy pokemon
+-higher / lower pp
+
+
+
+gain +2 pp next turn
+restore x pp per turn
+
+-tandems
+-innate benefits
+-synergies
+-sacrifice hp / defense / str
+-equip on correct slot
+-defensive buffs
+-dual buffs
+-passive abilities (raise x% of y types)
+-pp restore (consume pp to do so)
+-hp restore
+-dispel
+-mirror
+-fixed dmg
+-status inflict
+-neutral damage
+-always effective damage
+-synergize equip / transform (castform)
+-reflect buff (mr. mime)
+-use defensive buffs as offensive and vice versa
+-paralyze / sleep / burn / poison / evasiveness
+-raise critical rate
+-life steal (giga drain)
+-chance to inflict <status> on targets when attacked OR when they attack
+-restores hp when <status> instead of losing hp
+-reduces the power of supereffective attacks taken
+-deal more damage to <status> targets
+-neutralize type effectiveness/resistance for x attacks
+-% chance to counter back
+-slight hp over time replenish (bell)
+
+
+
+invert_dps in flag
+
+No to:
+
+deal elemental based damage over time:
+nature: poisoned
+fire: burned
+water: drowning
+electric: paralyzed
+earth: sandstorm
+dragon:
+ice: frostbite
+psychic: confusion
+fairy: sleep
+dark: gravity
+
+
+TMs:
+sleep, paralyze, ab/db, second chance, elemental damage, leech seed (no)
+
+charge (restore hp / pp per turn)
+
+kecleon: 016    Color Change    The Pokémon's type becomes the type of the move used on it.
+
+
+- Shiny Pokemon?
+- Delta Pokemon with swapped attributes / weaknesses
+- Trainer's Pokemon (Ash's Pikachu)
+
+

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Komala - Pokémon for Discord</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|PT+Sans:400,400i,700" rel="stylesheet">
+    <script src="app.js"></script>
+    <link href="pokemon.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="logo"><img src="images/logo2x.png" alt="Komala"></h1>
+    <h2>World<div class="tagline">Explore a massive region with puzzles and Pokémon to catch</div></h2>
+    <div class="world-container">
+        <div class="world-images">
+            <div id="world_0" class="world-image"><img id="world_img_0" src="https://i.imgur.com/WO4PCyP.png"></div>
+            <div id="world_1" class="world-image"><img id="world_img_1" src="https://i.imgur.com/J8mRW71.png"></div>
+            <div id="world_2" class="world-image"><img id="world_img_2" src="https://i.imgur.com/Pdkg3pf.png"></div>
+            <div id="world_3" class="world-image"><img id="world_img_3" src="https://i.imgur.com/pt0UlDI.png"></div>
+            <div id="world_4" class="world-image"><img id="world_img_4" src="https://i.imgur.com/e80SyyD.png"></div>
+            <div id="world_5" class="world-image"><img id="world_img_5" src="https://i.imgur.com/74JAq1N.png"></div>
+            <div id="world_6" class="world-image"><img id="world_img_6" src="https://i.imgur.com/oMCZWkP.png"></div>
+        </div>
+    </div>
+    <h2>Pokémon<div class="tagline">Tap or Mouseover to See Unique Abilities</div></h2>
+    <div class="grid-container">
+        <div class="grid">
+            <div id="badge_1" class="badge badge-1" data-no=1></div>
+            <div id="badge_2" class="badge badge-2" data-no=2></div>
+            <div id="badge_3" class="badge badge-3" data-no=3></div>
+            <div id="badge_4" class="badge badge-4" data-no=4></div>
+            <div id="badge_5" class="badge badge-5" data-no=5></div>
+            <div id="badge_6" class="badge badge-6" data-no=6></div>
+            <div id="badge_7" class="badge badge-7" data-no=7></div>
+            <div id="badge_9" class="badge badge-9" data-no=9></div>
+            <div id="badge_8" class="badge badge-8" data-no=8></div>
+            <div id="badge_10" class="badge badge-10" data-no=10></div>
+            <div id="badge_11" class="badge badge-11" data-no=11></div>
+            <div id="badge_12" class="badge badge-12" data-no=12></div>
+            <div id="badge_13" class="badge badge-13" data-no=13></div>
+            <div id="badge_181" class="badge badge-181" data-no=181></div>
+            <div id="badge_182" class="badge badge-182" data-no=182></div>
+            <div id="badge_41" class="badge badge-41" data-no=41></div>
+            <div id="badge_42" class="badge badge-42" data-no=42></div>
+            <div id="badge_43" class="badge badge-43" data-no=43></div>
+            <div id="badge_44" class="badge badge-44" data-no=44></div>
+            <div id="badge_15" class="badge badge-15" data-no=15></div>
+            <div id="badge_16" class="badge badge-16" data-no=16></div>
+            <div id="badge_17" class="badge badge-17" data-no=17></div>
+            <div id="badge_60" class="badge badge-60" data-no=60></div>
+            <div id="badge_61" class="badge badge-61" data-no=61></div>
+            <div id="badge_62" class="badge badge-62" data-no=62></div>
+            <div id="badge_63" class="badge badge-63" data-no=63></div>
+            <div id="badge_194" class="badge badge-194" data-no=194></div>
+            <div id="badge_195" class="badge badge-195" data-no=195></div>
+            <div id="badge_197" class="badge badge-197" data-no=197></div>
+            <div id="badge_198" class="badge badge-198" data-no=198></div>
+            <div id="badge_26" class="badge badge-26" data-no=26></div>
+            <div id="badge_27" class="badge badge-27" data-no=27></div>
+            <div id="badge_106" class="badge badge-106" data-no=106></div>
+            <div id="badge_107" class="badge badge-107" data-no=107></div>
+            <div id="badge_92" class="badge badge-92" data-no=92></div>
+            <div id="badge_93" class="badge badge-93" data-no=93></div>
+            <div id="badge_94" class="badge badge-94" data-no=94></div>
+            <div id="badge_45" class="badge badge-45" data-no=45></div>
+            <div id="badge_46" class="badge badge-46" data-no=46></div>
+            <div id="badge_47" class="badge badge-47" data-no=47></div>
+            <div id="badge_48" class="badge badge-48" data-no=48></div>
+            <div id="badge_30" class="badge badge-30" data-no=30></div>
+            <div id="badge_110" class="badge badge-110" data-no=110></div>
+            <div id="badge_111" class="badge badge-111" data-no=111></div>
+            <div id="badge_80" class="badge badge-80" data-no=80></div>
+            <div id="badge_81" class="badge badge-81" data-no=81></div>
+            <div id="badge_82" class="badge badge-82" data-no=82></div>
+            <div id="badge_108" class="badge badge-108" data-no=108></div>
+            <div id="badge_109" class="badge badge-109" data-no=109></div>
+            <div id="badge_69" class="badge badge-69" data-no=69></div>
+            <div id="badge_70" class="badge badge-70" data-no=70></div>
+            <div id="badge_71" class="badge badge-71" data-no=71></div>
+            <div id="badge_83" class="badge badge-83" data-no=83></div>
+            <div id="badge_84" class="badge badge-84" data-no=84></div>
+            <div id="badge_85" class="badge badge-85" data-no=85></div>
+            <div id="badge_228" class="badge badge-228" data-no=228></div>
+            <div id="badge_209" class="badge badge-209" data-no=209></div>
+            <div id="badge_210" class="badge badge-210" data-no=210></div>
+            <div id="badge_64" class="badge badge-64" data-no=64></div>
+            <div id="badge_65" class="badge badge-65" data-no=65></div>
+            <div id="badge_66" class="badge badge-66" data-no=66></div>
+            <div id="badge_54" class="badge badge-54" data-no=54></div>
+            <div id="badge_55" class="badge badge-55" data-no=55></div>
+            <div id="badge_56" class="badge badge-56" data-no=56></div>
+            <div id="badge_57" class="badge badge-57" data-no=57></div>
+            <div id="badge_190" class="badge badge-190" data-no=190></div>
+            <div id="badge_191" class="badge badge-191" data-no=191></div>
+            <div id="badge_170" class="badge badge-170" data-no=170></div>
+            <div id="badge_171" class="badge badge-171" data-no=171></div>
+            <div id="badge_86" class="badge badge-86" data-no=86></div>
+            <div id="badge_87" class="badge badge-87" data-no=87></div>
+            <div id="badge_28" class="badge badge-28" data-no=28></div>
+            <div id="badge_29" class="badge badge-29" data-no=29></div>
+            <div id="badge_58" class="badge badge-58" data-no=58></div>
+            <div id="badge_59" class="badge badge-59" data-no=59></div>
+            <div id="badge_79" class="badge badge-79" data-no=79></div>
+            <div id="badge_37" class="badge badge-37" data-no=37></div>
+            <div id="badge_38" class="badge badge-38" data-no=38></div>
+            <div id="badge_39" class="badge badge-39" data-no=39></div>
+            <div id="badge_40" class="badge badge-40" data-no=40></div>
+            <div id="badge_74" class="badge badge-74" data-no=74></div>
+            <div id="badge_75" class="badge badge-75" data-no=75></div>
+            <div id="badge_76" class="badge badge-76" data-no=76></div>
+            <div id="badge_67" class="badge badge-67" data-no=67></div>
+            <div id="badge_68" class="badge badge-68" data-no=68></div>
+            <div id="badge_167" class="badge badge-167" data-no=167></div>
+            <div id="badge_168" class="badge badge-168" data-no=168></div>
+            <div id="badge_123" class="badge badge-123" data-no=123></div>
+            <div id="badge_124" class="badge badge-124" data-no=124></div>
+            <div id="badge_114" class="badge badge-114" data-no=114></div>
+            <div id="badge_115" class="badge badge-115" data-no=115></div>
+            <div id="badge_112" class="badge badge-112" data-no=112></div>
+            <div id="badge_113" class="badge badge-113" data-no=113></div>
+            <div id="badge_119" class="badge badge-119" data-no=119></div>
+            <div id="badge_105" class="badge badge-105" data-no=105></div>
+            <div id="badge_205" class="badge badge-205" data-no=205></div>
+            <div id="badge_206" class="badge badge-206" data-no=206></div>
+            <div id="badge_162" class="badge badge-162" data-no=162></div>
+            <div id="badge_163" class="badge badge-163" data-no=163></div>
+            <div id="badge_164" class="badge badge-164" data-no=164></div>
+            <div id="badge_165" class="badge badge-165" data-no=165></div>
+            <div id="badge_192" class="badge badge-192" data-no=192></div>
+            <div id="badge_193" class="badge badge-193" data-no=193></div>
+            <div id="badge_20" class="badge badge-20" data-no=20></div>
+            <div id="badge_21" class="badge badge-21" data-no=21></div>
+            <div id="badge_23" class="badge badge-23" data-no=23></div>
+            <div id="badge_24" class="badge badge-24" data-no=24></div>
+            <div id="badge_223" class="badge badge-223" data-no=223></div>
+            <div id="badge_129" class="badge badge-129" data-no=129></div>
+            <div id="badge_133" class="badge badge-133" data-no=133></div>
+            <div id="badge_130" class="badge badge-130" data-no=130></div>
+            <div id="badge_134" class="badge badge-134" data-no=134></div>
+            <div id="badge_137" class="badge badge-137" data-no=137></div>
+            <div id="badge_138" class="badge badge-138" data-no=138></div>
+            <div id="badge_140" class="badge badge-140" data-no=140></div>
+            <div id="badge_141" class="badge badge-141" data-no=141></div>
+            <div id="badge_143" class="badge badge-143" data-no=143></div>
+            <div id="badge_144" class="badge badge-144" data-no=144></div>
+            <div id="badge_146" class="badge badge-146" data-no=146></div>
+            <div id="badge_147" class="badge badge-147" data-no=147></div>
+            <div id="badge_183" class="badge badge-183" data-no=183></div>
+            <div id="badge_184" class="badge badge-184" data-no=184></div>
+            <div id="badge_150" class="badge badge-150" data-no=150></div>
+            <div id="badge_151" class="badge badge-151" data-no=151></div>
+            <div id="badge_154" class="badge badge-154" data-no=154></div>
+            <div id="badge_155" class="badge badge-155" data-no=155></div>
+            <div id="badge_220" class="badge badge-220" data-no=220></div>
+            <div id="badge_221" class="badge badge-221" data-no=221></div>
+            <div id="badge_202" class="badge badge-202" data-no=202></div>
+            <div id="badge_203" class="badge badge-203" data-no=203></div>
+            <div id="badge_88" class="badge badge-88" data-no=88></div>
+            <div id="badge_89" class="badge badge-89" data-no=89></div>
+            <div id="badge_90" class="badge badge-90" data-no=90></div>
+            <div id="badge_91" class="badge badge-91" data-no=91></div>
+            <div id="badge_118" class="badge badge-118" data-no=118></div>
+            <div id="badge_120" class="badge badge-120" data-no=120></div>
+            <div id="badge_122" class="badge badge-122" data-no=122></div>
+            <div id="badge_121" class="badge badge-121" data-no=121></div>
+            <div id="badge_217" class="badge badge-217" data-no=217></div>
+            <div id="badge_218" class="badge badge-218" data-no=218></div>
+            <div id="badge_125" class="badge badge-125" data-no=125></div>
+            <div id="badge_126" class="badge badge-126" data-no=126></div>
+            <div id="badge_156" class="badge badge-156" data-no=156></div>
+            <div id="badge_157" class="badge badge-157" data-no=157></div>
+            <div id="badge_160" class="badge badge-160" data-no=160></div>
+            <div id="badge_161" class="badge badge-161" data-no=161></div>
+            <div id="badge_187" class="badge badge-187" data-no=187></div>
+            <div id="badge_176" class="badge badge-176" data-no=176></div>
+            <div id="badge_177" class="badge badge-177" data-no=177></div>
+            <div id="badge_116" class="badge badge-116" data-no=116></div>
+            <div id="badge_117" class="badge badge-117" data-no=117></div>
+            <div id="badge_99" class="badge badge-99" data-no=99></div>
+            <div id="badge_102" class="badge badge-102" data-no=102></div>
+            <div id="badge_100" class="badge badge-100" data-no=100></div>
+            <div id="badge_103" class="badge badge-103" data-no=103></div>
+            <div id="badge_101" class="badge badge-101" data-no=101></div>
+            <div id="badge_104" class="badge badge-104" data-no=104></div>
+            <div id="badge_174" class="badge badge-174" data-no=174></div>
+            <div id="badge_175" class="badge badge-175" data-no=175></div>
+            <div id="badge_214" class="badge badge-214" data-no=214></div>
+            <div id="badge_179" class="badge badge-179" data-no=179></div>
+            <div id="badge_180" class="badge badge-180" data-no=180></div>
+            <div id="badge_78" class="badge badge-78" data-no=78></div>
+            <div id="badge_127" class="badge badge-127" data-no=127></div>
+            <div id="badge_128" class="badge badge-128" data-no=128></div>
+            <div id="badge_49" class="badge badge-49" data-no=49></div>
+            <div id="badge_50" class="badge badge-50" data-no=50></div>
+            <div id="badge_51" class="badge badge-51" data-no=51></div>
+            <div id="badge_52" class="badge badge-52" data-no=52></div>
+            <div id="badge_53" class="badge badge-53" data-no=53></div>
+            <div id="badge_166" class="badge badge-166" data-no=166></div>
+            <div id="badge_227" class="badge badge-227" data-no=227></div>
+            <div id="badge_35" class="badge badge-35" data-no=35></div>
+            <div id="badge_36" class="badge badge-36" data-no=36></div>
+            <div id="badge_188" class="badge badge-188" data-no=188></div>
+            <div id="badge_213" class="badge badge-213" data-no=213></div>
+            <div id="badge_25" class="badge badge-25" data-no=25></div>
+            <div id="badge_207" class="badge badge-207" data-no=207></div>
+            <div id="badge_208" class="badge badge-208" data-no=208></div>
+            <div id="badge_211" class="badge badge-211" data-no=211></div>
+            <div id="badge_212" class="badge badge-212" data-no=212></div>
+            <div id="badge_199" class="badge badge-199" data-no=199></div>
+            <div id="badge_200" class="badge badge-200" data-no=200></div>
+            <div id="badge_189" class="badge badge-189" data-no=189></div>
+            <div id="badge_226" class="badge badge-226" data-no=226></div>
+            <div id="badge_224" class="badge badge-224" data-no=224></div>
+            <div id="badge_225" class="badge badge-225" data-no=225></div>
+            <div id="badge_201" class="badge badge-201" data-no=201></div>
+            <div id="badge_215" class="badge badge-215" data-no=215></div>
+            <div id="badge_216" class="badge badge-216" data-no=216></div>
+            <div id="badge_204" class="badge badge-204" data-no=204></div>
+            <div id="badge_169" class="badge badge-169" data-no=169></div>
+            <div id="badge_95" class="badge badge-95" data-no=95></div>
+            <div id="badge_96" class="badge badge-96" data-no=96></div>
+            <div id="badge_97" class="badge badge-97" data-no=97></div>
+            <div id="badge_98" class="badge badge-98" data-no=98></div>
+            <div id="badge_178" class="badge badge-178" data-no=178></div>
+            <div id="badge_148" class="badge badge-148" data-no=148></div>
+            <div id="badge_149" class="badge badge-149" data-no=149></div>
+            <div id="badge_222" class="badge badge-222" data-no=222></div>
+            <div id="badge_185" class="badge badge-185" data-no=185></div>
+            <div id="badge_186" class="badge badge-186" data-no=186></div>
+            <div id="badge_172" class="badge badge-172" data-no=172></div>
+            <div id="badge_173" class="badge badge-173" data-no=173></div>
+            <div id="badge_31" class="badge badge-31" data-no=31></div>
+            <div id="badge_32" class="badge badge-32" data-no=32></div>
+            <div id="badge_33" class="badge badge-33" data-no=33></div>
+            <div id="badge_34" class="badge badge-34" data-no=34></div>
+            <div id="badge_14" class="badge badge-14" data-no=14></div>
+            <div id="badge_219" class="badge badge-219" data-no=219></div>
+            <div id="badge_72" class="badge badge-72" data-no=72></div>
+            <div id="badge_73" class="badge badge-73" data-no=73></div>
+        </div>
+        <div id="tt" class="tooltip">
+            <div id="tt_arrow" class="arrow"></div>
+            <div class="tooltip-inner">
+                <div class="heading">
+                    <div>
+                        <h3 id="tt_title"></h3>
+                        <div id="tt_desc" class="description"></div>
+                    </div>
+                    <div style="min-width: 70px; min-height: 70px;">
+                        <img id="tt_thumb" src="https://play.pokemonshowdown.com/sprites/xyani/bulbasaur.gif">
+                    </div>
+                </div>
+                <div id="tt_dex" class="dex"></div>
+                <div id="tt_fields" class="fields"></div>
+            </div>
+        </div>
+    </div>
+    <h2>Battle<div class="tagline">Challenge Gym Leaders, Team Rocket, and your friends!</div></h2>
+    <div class="battles">
+        <div class="battle"><img src="https://i.imgur.com/xLJxHZC.png"></div>
+        <div class="battle"><img src="https://i.imgur.com/PZk8pB0.png"></div>
+        <div class="battle"><img src="https://i.imgur.com/GXCl4iD.png"></div>
+    </div>
+
+</body>
+</html>

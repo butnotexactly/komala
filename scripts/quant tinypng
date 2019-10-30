@@ -1,0 +1,1 @@
+for /D /r %d in (.) do ( cd %d && pngquant --quality=65-80 --force --strip --ext .png *.png )

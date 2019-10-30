@@ -1,0 +1,265 @@
+???  Gym for viridian im not sure maybe something new? or closed?
+Rock Gym for Pewter / Brock obvi, maybe decorate pewter city with more rock sprites
+Poison Gym in swamp (in that temple thing)
+Ice Gym in snow area
+Ghost Gym (and rock trainers) in monochrome
+Bug/Dark Gym in City Center (Guzma)
+Fire or Dragon Gym or both in the fire mountain city
+Fairy + Flying  Gym(various type or normal) in Sky City
+Ground Gym in desert
+Electric Gym in Power Plant
+Water Gym underwater
+
+
+for name in ['Scyther', 'Scizor', 'Elekid', 'Electabuzz', 'Smoochum', 'Jynx', 'Magby', 'Magmar']:
+
+for name in ['Chatot']:
+
+for name in ['Phantump (Psychic)', 'Phantump (Nature)', 'Trevenant (Psychic)', 'Trevenant (Nature)']:
+
+for name in ['Absol']:
+
+for name in ['Castform (Sunny)', 'Castform (Rainy)', 'Castform (Snowy)']:
+
+for name in ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Oddish', 'Bellossom']:
+
+for name in ['Gastly', 'Haunter', 'Gengar']:
+
+for name in ['Voltorb', 'Electrode']:
+
+for name in ['Happiny', 'Chansey', 'Blissey']:
+
+for name in ['Sandshrew', 'Sandslash', 'Alolan Sandshrew', 'Alolan Sandslash']:
+
+for name in ['Komala']:
+
+for name in ['Magikarp']:
+
+for name in ['Gyarados (Water)', 'Gyarados (Dragon)']:
+
+for name in ['Rattata', 'Raticate', 'Alolan Rattata', 'Alolan Raticate']:
+
+for name in ['Mime Jr. (Psychic)', 'Mime Jr. (Fairy)', 'Mr. Mime (Psychic)', 'Mr. Mime (Fairy)']:
+
+for name in ['Meowth', 'Alolan Meowth', 'Persian', 'Alolan Persian']:
+
+
+____
+
+nidos
+
+bulbs
+
+charms
+
+squirtles
+
+rockets:
+('alolan meowth', 'dark'),
+#('alolan persian', 'dark'),
+('alolan rattata', 'dark'),
+#('alolan raticate', 'dark'),
+#('pancham', ['dark', 'earth']),
+#('lycanroc (midnight)', 'dark'),
+#('lycanroc (dusk)', 'fire'),
+#('houndoom (dark)', ['fire', 'dark']),
+#('houndour (dark)', ['fire', 'dark']),
+#('murkrow', 'dark'),
+#('gastly', 'psychic'),
+#('gloom', 'nature'),
+
+poison temple:
+skrelp
+gastly line
+nidoran line
+oddish line
+salandit line
+bulbasaur line
+castform sunny
+
+bug/dark:
+
+absol
+scyther
+eternal floette? prob not
+vespiqueen?
+scatterbug / spewpa
+burmu / wormadam
+golisopoed
+lots of hybrids
+
+
+ghost/rock:
+
+gastly line
+phantump line
+mimikyuu
+espurr / meowstic
+mr mime?
+unown
+rotoms!!
+
+
+brock gym:
+
+onix/steelix
+larvata/rbpupitar
+aron/lairon
+beldum/metang **
+rockruff / lycanroc **
+Tyrunt ** (storm)
+
+
+
+ice gym:
+vulpix / ninetales
+smoochum / jynx
+castform (snowy)
+spheal line
+frosslass (+ some psychics)
+sneasel
+deerling
+cubchoo
+alolan sandshrew
+amaura
+
+fairy/flying:
+morelull/shinotic?
+mr mime
+ralts
+chatot
+eternal floette
+flabebe
+deerling
+snubbul
+cutiefly
+mimikyuu?
+mareep line
+
+
+====
+Pallet
+====
+
+[rival]
+???
+
+[oak]
+Mega Venusaur/Charizard/Blastoise
+Gyarados
+Porygon-Z
+Snorlax
+
+
+====
+Pikipek
+====
+
+[pp_rocket_blah]
+alolan meowth x 2, al raticate, pancham
+
+[emma]
+???
+
+[joey]
+text
+
+__
+
+[vincent]
+text
+
+[quinn]
+???
+
+
+
+====
+Viridian City
+====
+
+[vc_rocket_blah]
+???
+
+
+[vc_rocket_blah]
+text
+
+[pond guy]
+text
+
+__
+
+
+[imposter_oak]
+???
+
+
+
+
+====
+Viridian City
+====
+
+[greeter]
+text
+
+[mom]
+text
+
+[child]
+text
+
+_
+
+[elder]
+???
+
+
+_
+
+[parker] clown
+aron / sandshrew alolan / sandslash / komala
+
+[lucas] cooltrainer
+rockruff / pupitar
+lycanroc trio x
+
+
+[russell] hiker
+beldum psychic
+metang earth
+larvitar
+lairon
+
+[brock]
+onix + tyrunt + metagross
+mega steelix
+
+
+onix/steelix
+larvata/rbpupitar
+aron/lairon
+beldum/metang **
+rockruff / lycanroc **
+Tyrunt ** (storm)
+
+
+
+===
+Swamp / Lost Village
+
+
+[roxie]
+salandit (fire) / venusaur / castform (sunny)
+salazzle (nature) / gastly / nidoqueen
+gloom?
+
+
+skrelp
+gastly line
+nidoran line
+oddish line
+salandit line
+bulbasaur line
+castform sunny
