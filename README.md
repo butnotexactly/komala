@@ -1,6 +1,6 @@
 # Komala
 
-## Pokémon for Discord
+### Pokémon for Discord
 
 ![Pokémon for Discord](site/images/logo2x.png)
 
