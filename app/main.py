@@ -1,3 +1,4 @@
+import os
 import asyncio
 import random
 import secrets
@@ -208,10 +209,12 @@ async def _reloadall(ctx, arg=''):
 # logger.addHandler(handler)
 
 # error.setup(bot)
-bot.run('NDEzNzc0NTUzMDQ3ODkxOTg5.DWdxXA.ldFsKnZeX8DSpQP9ImJinv6i8Hw')
 
 
+with open('../config/discord-app.json') as f:
+    config = json.load(f)
 
+bot.run(config['token'])
 
 # def load_poke_db(self):
 #     if not pokedb:
