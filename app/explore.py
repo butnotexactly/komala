@@ -485,7 +485,7 @@ class PokemonEncounter(Quest):
                 self.embed.remove_field(i)
                 return
 
-class Explore:
+class Explore(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 

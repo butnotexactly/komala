@@ -590,7 +590,7 @@ def make_enemy_pkmn(dex, name, lv, t, extra=None):
     return p
 
 
-class Gym:
+class Gym(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 

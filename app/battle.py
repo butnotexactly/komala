@@ -1412,7 +1412,7 @@ def to_battle_pkmn(pcParty, boosts, xSlots):
     return battleParty
 
 
-class Battle:
+class Battle(commands.Cog):
     def __init__(self, bot):
         # self.db = db
         self.bot = bot

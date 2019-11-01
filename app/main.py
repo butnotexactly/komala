@@ -1,3 +1,4 @@
+import json
 import os
 import asyncio
 import random
@@ -9,10 +10,10 @@ import sys
 import difflib
 import time
 
-#import context
 import error
 import battle
 import checks
+# import context
 
 from common import *
 from game import *
@@ -174,7 +175,7 @@ async def safari(ctx, arg=''):
 #     async with ctx.typing():
 #         png = bot.render.render_deck(random.randint(0, 9), [random.randint(0, 3) for i in range(6)])
 #         e = discord.Embed().set_image(url='attachment://party.png')
-#         await ctx.send(embed=e, file=discord.File(png.getvalue(), 'party.png'))
+#         await ctx.send(embed=e, file=discord.File(png, 'party.png'))
 
 
     # await ctx.send(file=discord.File(png, 'new_filename.png'))
@@ -211,7 +212,7 @@ async def _reloadall(ctx, arg=''):
 # error.setup(bot)
 
 
-with open('../config/discord-app.json') as f:
+with open('../config/discord_app.json') as f:
     config = json.load(f)
 
 bot.run(config['token'])

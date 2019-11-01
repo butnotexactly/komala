@@ -9,7 +9,7 @@ import difflib
 from fuzzywuzzy import process
 from common import *
 
-class Party:
+class Party(commands.Cog):
     def __init__(self, bot):
         # self.db = db
         self.bot = bot
@@ -194,7 +194,7 @@ class Party:
         ns = [p.no if p else None for p in party]
         png = self.bot.render.render_deck(deck['deck'], ns)
         e = discord.Embed(title=name, description=description).set_image(url='attachment://party.png')
-        sent = await ctx.send(f'<@{uid}>', embed=e, file=discord.File(png.getvalue(), 'party.png'))
+        sent = await ctx.send(f'<@{uid}>', embed=e, file=discord.File(png, 'party.png'))
         deck['cached_img'] = sent.embeds[0].image.url
         self.save_deck(uid, deck)
 

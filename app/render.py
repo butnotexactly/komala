@@ -11,7 +11,7 @@ from discord.ext import commands
 
 OPTIMIZE = False
 
-class Render:
+class Render(commands.Cog):
     def __init__(self, bot):
         # self.db = db
         self.bot = bot
@@ -60,7 +60,7 @@ class Render:
             columns  = max(a, b)
             rows     = min(a, b)
 
-        #fp = 'cache/pc/pc.png'
+        # fp = 'cache/pc/pc.png'
         if True:#not os.path.isfile(fp):
             ox, oy, dx, dy = 0, 0, 0, 0
             canvas = Image.new('RGBA', (size * columns, size * rows), 'white')
@@ -73,12 +73,12 @@ class Render:
 
             png = io.BytesIO()
             canvas.save(png, format='PNG', optimize=OPTIMIZE)
-            return png
-
+            png.seek(0)
 
             # with open(fp, 'wb') as f:
-            #     f.write(png.getvalue())
-            # print(time.time() - t)
+            #     f.write(png)
+
+            return png
 
     def render_deck(self, deck, ns):
 
@@ -97,6 +97,8 @@ class Render:
 
         png = io.BytesIO()
         canvas.save(png, format='PNG', optimize=OPTIMIZE)
+        png.seek(0)
+        
         return png
 
 
@@ -134,10 +136,11 @@ class Render:
 
         png = io.BytesIO()
         canvas.save(png, format='PNG', optimize=True)
+        png.seek(0)
 
         fp = 'all.png'
         with open(fp, 'wb') as f:
-            f.write(png.getvalue())
+            f.write(png)
 
 
 def setup(bot):

@@ -11,7 +11,7 @@ from fractions import Fraction
 
 from pprint import pprint, pformat
 
-class Pokedex:
+class Pokedex(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.pkmn = {}

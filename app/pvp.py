@@ -307,7 +307,7 @@ class PvpQuest(Quest):
             if delay: await asyncio.sleep(delay)
             await self.ctx.send(f'''<@{self.uid}>'s Turn!''', embed=e)
         else:
-            sent = await ctx.send(f'''<@{self.uid}>'s Turn!''', embed=e, file=discord.File(png.getvalue(), 'party.png'))
+            sent = await ctx.send(f'''<@{self.uid}>'s Turn!''', embed=e, file=discord.File(png, 'party.png'))
             deck['cached_img'] = sent.embeds[0].image.url
             self.bot.party.save_deck(self.uid, deck)
 
@@ -504,7 +504,7 @@ class PvpQuest(Quest):
 
 
 
-class Pvp:
+class Pvp(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.openbattles = {}

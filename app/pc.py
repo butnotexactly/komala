@@ -332,7 +332,7 @@ sortLabels = {
     BY_LEVEL: 'Sorted by Level'
 }
 
-class Pc:
+class Pc(commands.Cog):
     def __init__(self, bot):
         # self.db = db
         self.bot = bot
@@ -435,7 +435,7 @@ class Pc:
     #         text = self.page_text(0, pkmn, None)
     #         png = self.bot.render.render_pc(ns)
     #         e = discord.Embed(description=text).set_image(url='attachment://pc.png')
-    #         await ctx.send(embed=e, file=discord.File(png.getvalue(), 'pc.png'))
+    #         await ctx.send(embed=e, file=discord.File(png, 'pc.png'))
 
 
     # @commands.command()
@@ -458,7 +458,7 @@ class Pc:
     #         text = self.page_text(0, pkmn, 1)
     #         png = self.bot.render.render_pc(ns)
     #         e = discord.Embed(description=text).set_image(url='attachment://pc.png')
-    #         await ctx.send(f'<@{ctx.author.id}>', embed=e, file=discord.File(png.getvalue(), 'pc.png'))
+    #         await ctx.send(f'<@{ctx.author.id}>', embed=e, file=discord.File(png, 'pc.png'))
 
 
     def get_debug_data(self):
@@ -613,7 +613,7 @@ class Pc:
 
         png = self.bot.render.render_pc(ns)
         e = discord.Embed(description=text).set_image(url='attachment://pc.png').set_footer(text=footer)
-        sent = await message.channel.send(f'<@{uid}> Took {time.time() - t:.3f} seconds', embed=e, file=discord.File(png.getvalue(), 'pc.png'))
+        sent = await message.channel.send(f'<@{uid}> Took {time.time() - t:.3f} seconds', embed=e, file=discord.File(png, 'pc.png'))
         self.imgcache[uid][page] = (sent.embeds[0].image.url, ns)
 
 
@@ -650,7 +650,7 @@ class Pc:
     #     async with ctx.typing():
     #         png = self.bot.render.render_pc(ns)
     #         e = discord.Embed(description=text).set_image(url='attachment://pc.png')
-    #         await ctx.send(f'<@{ctx.author.id}>', embed=e, file=discord.File(png.getvalue(), 'pc.png'))
+    #         await ctx.send(f'<@{ctx.author.id}>', embed=e, file=discord.File(png, 'pc.png'))
 
 
     # sort inventory

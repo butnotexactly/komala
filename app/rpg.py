@@ -396,7 +396,7 @@ def get_adjacent_location(location, direction, area):
 
     return to
 
-class Rpg:
+class Rpg(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.cache = {}
